@@ -1,0 +1,52 @@
+
+.copyMainFrame{
+  border:2px solid #cce3de;
+  border-radius: 10px;
+  width: 100%;
+  display: inline-block;
+  vertical-align: top;
+  padding: 0px;
+  height: 40px;
+  margin-top: 25px;
+}
+
+
+
+#descriptionDiv{
+  box-sizing: border-box;
+  display: inline-block;
+  vertical-align: top;
+  text-align: center;
+  width: 80%;
+}
+
+#buttonDiv{
+  box-sizing: border-box;
+  display: inline-block;
+  vertical-align: top;
+  text-align: center;
+  width: 20%;
+}
+
+
+p{
+margin: 0px;
+padding: 0px;
+font-size: 16px;
+text-align: left;
+color: #6b9080;
+font-family: 'Baloo Bhaijaan 2', cursive;
+
+}
+
+
+#deleteButton{
+  color:white;
+  background-color: rgb(244, 95, 95);
+  width: 100%;
+  height: 40px;
+  font-size: 20px;
+  border:2px solid  rgb(244, 95, 95);
+  border-top-right-radius: 8px;
+  border-bottom-right-radius: 8px;
+}

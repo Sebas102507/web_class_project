@@ -1,0 +1,81 @@
+.bookFrame{
+  margin: 10px;
+  border:2px solid #cce3de;
+  padding-top: 15px;
+  border-radius: 20px;
+  height: 580px;
+  width: 280px;
+}
+
+.topFrame{
+  padding-left: 10px;
+  padding-right: 10px;
+  height: 530px;
+}
+
+img{
+  border-radius: 20px;
+  height: 350px;
+  width: 250px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+h5{
+  text-align: center;
+  font-family: 'Abril Fatface', cursive;
+  color: #6b9080;
+  font-size: 16px;
+  padding: 10px;
+  margin: 0px;
+}
+
+p{
+  text-align: center;
+  font-size: 15px;
+  color: #a4c3b2;
+  font-family: 'Baloo Bhaijaan 2', cursive;
+  padding: 5px;
+  margin: 0px;
+}
+
+
+.buttons_frame{
+  height: 50px;
+  display: flex;
+  align-content: center;
+  vertical-align: bottom;
+
+}
+
+#editButton{
+color:white;
+background-color: #6b9080;
+width: 50%;
+font-size: 20px;
+border:2px solid #cce3de;
+border-end-start-radius: 20px;
+}
+
+#deleteButton{
+color:white;
+background-color: rgb(244, 95, 95);
+width: 50%;
+font-size: 20px;
+border:2px solid #cce3de;
+border-end-end-radius: 20px;
+}
+
+
+#editButton:hover{
+  color:white;
+  background-color: #587769;
+  border:2px solid #cce3de;
+}
+
+#deleteButton:hover{
+color:white;
+background-color: rgb(207, 81, 81);
+border:2px solid #cce3de;
+}

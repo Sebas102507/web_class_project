@@ -1,0 +1,69 @@
+.returnMainFrame{
+  border:2px solid #cce3de;
+  border-radius: 10px;
+  width: 100%;
+  display: inline-block;
+  vertical-align: top;
+  padding: 0px;
+  height: 120px;
+  margin-top: 25px;
+}
+
+
+#ImageDiv{
+  box-sizing: border-box;
+  display: inline-block;
+  vertical-align: top;
+  text-align: center;
+  width: 10%;
+}
+
+
+img{
+  border-radius: 10px;
+  height: 120px;
+  width: 120px;
+  display: block;
+
+}
+
+#descriptionDiv{
+  padding-left: 20px;
+  box-sizing: border-box;
+  display: inline-block;
+  vertical-align: top;
+  text-align: center;
+  width: 80%;
+}
+
+#buttonDiv{
+  box-sizing: border-box;
+  display: inline-block;
+  vertical-align: top;
+  text-align: center;
+  width: 10%;
+}
+
+
+p{
+margin: 0px;
+padding: 0px;
+font-size: 16px;
+text-align: left;
+color: #6b9080;
+font-family: 'Baloo Bhaijaan 2', cursive;
+
+}
+
+
+#lendButton{
+  color:white;
+  background-color:  #6b9080;
+  width: 100%;
+  height: 40px;
+  font-size: 20px;
+  border:2px solid   #6b9080;
+  border-top-right-radius: 8px;
+  border-bottom-right-radius: 8px;
+  height: 120px;
+}

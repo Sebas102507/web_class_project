@@ -1,0 +1,51 @@
+<div>
+
+  <div class="mainHeader">
+    <h2>New Book</h2>
+  </div>
+
+  <div class="mainDiv">
+    <div class="formDiv">
+      <form>
+        <label>Title: </label>
+        <input type="text"  [(ngModel)]="currentBook.title" name="title">
+
+        <label>ISBN: </label>
+        <input type="text"  [(ngModel)]="currentBook.isbn" name="isbn">
+
+        <label>ImageUrl: </label>
+        <input type="text"  [(ngModel)]="currentBook.imageUrl" name="imageUrl">
+    </form>
+    </div>
+
+   <div class="authorDiv">
+    <label>Author(s): </label>
+    <select id="AuthorDropdown">
+      <option *ngFor="let auth of authors" [value]="auth">{{auth.name}}</option>
+    </select>
+    <button id="addButton" (click)="addAuthor()">Add Author + </button>
+   </div>
+
+   <div>
+
+    <ul>
+      <li *ngFor="let auth of selectedAuthors">
+        <div class="authorBox">
+          <div id="descriptionDiv">
+            <p>{{auth.name}}</p>
+            </div>
+            <div id="buttonDiv">
+              <button id="deleteButton" (click)="removeAuthor(auth)">Eliminar</button>
+            </div>
+        </div>
+      </li>
+    </ul>
+
+  </div>
+
+    <div>
+      <button id="addButton" (click)="addNewBook()">Add Book + </button>
+    </div>
+  </div>
+
+</div>

@@ -1,0 +1,11 @@
+<div>
+  <div class="mainHeader">
+    <h2>Book List</h2>
+  </div>
+
+      <div class="grid-container">
+        <div *ngFor="let book of bookDB">
+          <app-book-view [currentBook]=book (deleteClicked)="refresh($event)"></app-book-view>
+        </div>
+      </div>
+</div>

@@ -1,0 +1,93 @@
+.formDiv > div>div>label{
+  font-family: 'Baloo Bhaijaan 2', cursive;
+  text-align:start;
+  color: #6b9080;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+
+.formDiv > div> input{
+  font-family: 'Baloo Bhaijaan 2', cursive;
+  text-align:start;
+  color: #6b9080;
+  font-size: 18px;
+  font-weight: bold;
+  border:2px solid #6b9080;
+  border-radius: 10px;
+  width: 80%;
+}
+
+
+.formDiv{
+  margin-bottom: 20px;
+  vertical-align: top;
+}
+
+.mainDiv{
+  margin-top: 80px;
+  height:100vh;
+  width: 100%;
+
+}
+
+.mainDiv >div {
+  box-sizing: border-box;
+  display: inline-block;
+  vertical-align: top;
+  padding: 50px;
+  text-align: center;
+  width: 50%;
+}
+
+img{
+  border-radius: 10px;
+  height: 350px;
+  width: 250px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+
+
+button{
+  color:#6b9080;
+  background-color: white;
+  width: 80%;
+  height: 40px;
+  font-size: 18px;
+  border:2px solid #6b9080;
+  border-radius: 10px;
+  }
+
+  button:hover{
+    color: white;
+    background-color: #6b9080;
+    border:2px solid  white;
+  }
+
+
+
+ul{
+  list-style-type: none;
+}
+
+#descriptionDiv{
+  box-sizing: border-box;
+  display: inline-block;
+  vertical-align: top;
+  text-align: center;
+  width: 100%;
+}
+
+#descriptionDiv > p{
+  margin: 0px;
+  padding: 0px;
+  font-size: 20px;
+  text-align: left;
+  color: #6b9080;
+  font-family: 'Baloo Bhaijaan 2', cursive;
+
+  }
+

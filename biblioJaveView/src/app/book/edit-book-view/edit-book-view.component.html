@@ -1,0 +1,62 @@
+<div class="mainHeader">
+  <h2>Edit Book</h2>
+</div>
+
+<div class="mainDiv">
+
+    <div>
+
+      <img src={{currentBook!.imageUrl}}>
+
+      <div class="formDiv">
+
+        <div>
+          <div>
+            <label>Title: </label>
+          </div>
+          <input type="text"  [(ngModel)]="currentBook!.title" name="title">
+        </div>
+
+        <div>
+          <div>
+            <label>ISBN: </label>
+          </div>
+          <input type="text"  [(ngModel)]="currentBook!.isbn" name="isbn">
+        </div>
+        <div>
+          <div>
+            <label>ImageUrl: </label>
+          </div>
+        <input type="text"  [(ngModel)]="currentBook!.imageUrl" name="imageUrl">
+        </div>
+
+        <div>
+          <div>
+            <label>Author(s): </label>
+
+            <ul>
+              <li *ngFor="let auth of bookAuthors">
+                <div id="descriptionDiv">
+                  <p>{{auth.name}}</p>
+                  </div>
+              </li>
+            </ul>
+
+          </div>
+        </div>
+
+      </div>
+      <button (click)="completeEditBook()">Finish</button>
+    </div>
+
+    <div>
+      <button (click)="addCopy()">Add copy +</button>
+      <div *ngFor="let copy of bookCopies">
+        <app-book-copy-view [curentCopy]="copy" (deleteClicked)="refresh($event)"></app-book-copy-view>
+      </div>
+    </div>
+  </div>
+
+
+
+

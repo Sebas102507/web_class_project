@@ -1,0 +1,13 @@
+<div>
+  <div class="mainHeader">
+    <h2>Lend Book</h2>
+  </div>
+
+
+  <div class="grid-container">
+    <div *ngFor="let book of bookDB">
+      <app-book-lend-box-view [currentBook]=book></app-book-lend-box-view>
+    </div>
+  </div>
+
+</div>

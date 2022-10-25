@@ -1,0 +1,22 @@
+<div class="returnMainFrame">
+
+
+  <div id="ImageDiv">
+    <img src={{currentPersonbooklend?.copy?.book?.imageUrl}}>
+  </div>
+
+  <div id="descriptionDiv">
+  <p> LEND ID: {{currentPersonbooklend?.id}}    |    LEND DATE: {{currentPersonbooklend?.lendDate}}    |    EXPIRATION DATE: {{currentPersonbooklend?.expirationDate}} </p>
+
+  <p> BOOK ID: {{currentPersonbooklend?.copy?.book?.id}}    |    |BOOK TITLE: {{currentPersonbooklend?.copy?.book?.title}}    |    BOOK ISBN: {{currentPersonbooklend?.copy?.book?.isbn}}  </p>
+
+  <p>COPY ID: {{currentPersonbooklend?.copy?.id}}    |    COPY CREATION DATE: {{currentPersonbooklend?.copy?.creationDate}}  </p>
+
+  <p>PERSON ID: {{currentPersonbooklend?.person?.id}}    |    PERSON NAME: {{currentPersonbooklend?.person?.name}}  </p>
+  </div>
+
+  <div id="buttonDiv">
+    <button id="lendButton"  (click)="returnLend()" >Return</button>
+  </div>
+
+  </div>

@@ -1,0 +1,39 @@
+
+form > label{
+  font-family: 'Baloo Bhaijaan 2', cursive;
+  text-align:start;
+  color: #6b9080;
+  font-size: 18px;
+  margin-left: 20px;
+  font-weight: bold;
+}
+
+
+
+form > input{
+  font-family: 'Baloo Bhaijaan 2', cursive;
+  text-align:start;
+  color: #6b9080;
+  font-size: 18px;
+  margin-left: 20px;
+  font-weight: bold;
+  border:2px solid #6b9080;
+  border-radius: 10px;
+
+}
+
+
+.formDiv{
+  margin-bottom: 20px;
+  width: max-content;
+}
+
+.grid-container {
+  margin-top: 120px;
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+  overflow-y:auto;
+  width: 100%;
+  height:max-content;
+}
+

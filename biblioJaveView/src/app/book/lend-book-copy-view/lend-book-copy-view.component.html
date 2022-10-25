@@ -1,0 +1,26 @@
+<div>
+  <div class="mainHeader">
+    <h2>Lend Book Copy</h2>
+  </div>
+
+
+  <div class="mainDiv">
+    <div>
+        <label>Choose a person: </label>
+        <select id="PersonsDropdown" (change)="setCurrentPerson()">
+          <option *ngFor="let person of allPersons" [value]="person">{{person.name}}</option>
+        </select>
+        <label>Choose a expiration date: </label>
+      <input id="chooseDateInput" type="date" [(ngModel)]="selectedExpirationDateText">
+    </div>
+
+
+    <div>
+      <div *ngFor="let copy of bookCopies">
+        <app-lend-book-copy-box-view [curentCopy]="copy" [selectedPerson]="selectedPerson" [selectedExpirationDateText]="selectedExpirationDateText" (lendClicked)="refresh($event)"></app-lend-book-copy-box-view>
+      </div>
+    </div>
+  </div>
+
+
+</div>

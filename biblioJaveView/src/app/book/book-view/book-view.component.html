@@ -1,0 +1,11 @@
+<div class="bookFrame">
+<div class="topFrame">
+  <img src={{currentBook?.imageUrl}}>
+  <h5>{{currentBook?.title}}</h5>
+  <p>ISBN: {{currentBook?.isbn}}</p>
+</div>
+  <div class="buttons_frame">
+    <button (click)="edit()" id="editButton">Edit</button>
+    <button id="deleteButton" (click)="deleteBook()">Delete</button>
+  </div>
+</div>

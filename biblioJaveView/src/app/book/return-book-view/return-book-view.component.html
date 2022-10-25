@@ -1,0 +1,20 @@
+<div>
+  <div class="mainHeader">
+    <h2>Return Book</h2>
+  </div>
+
+
+  <div class="mainDiv">
+
+    <div>
+      <div *ngFor="let lend of currentLends">
+        <app-return-copy-book-box-view [currentPersonbooklend]="lend" (returnLendClicked)="refresh($event)"></app-return-copy-book-box-view>
+      </div>
+    </div>
+
+  </div>
+
+
+
+
+</div>

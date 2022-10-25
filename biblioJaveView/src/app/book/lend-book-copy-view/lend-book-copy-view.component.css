@@ -1,0 +1,40 @@
+.mainDiv{
+  margin-top: 140px;
+  height:100vh;
+  width: 100%;
+}
+
+#PersonsDropdown{
+  color:#6b9080;
+  background-color: white;
+  width: 130px;
+  height: 40px;
+  font-size: 18px;
+  border:2px solid #6b9080;
+  border-radius: 10px;
+  margin-left: 20px;
+}
+
+
+
+
+label{
+  font-family: 'Baloo Bhaijaan 2', cursive;
+  text-align:start;
+  color: #6b9080;
+  font-size: 18px;
+  margin-left: 20px;
+  font-weight: bold;
+}
+
+
+#chooseDateInput{
+  color:#6b9080;
+  background-color: white;
+  width: 150px;
+  height: 40px;
+  font-size: 18px;
+  border:2px solid #6b9080;
+  border-radius: 10px;
+  margin-left: 20px;
+}

@@ -1,0 +1,59 @@
+#uPicture{
+  height: 120px;
+  width: auto;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+
+#profilePicture{
+  height: 120px;
+  width: 120px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+
+h2{
+  font-family: 'Abril Fatface', cursive;
+  text-align: center;
+  color: #6b9080;
+}
+
+.sidenav {
+    height: 100%;
+    width: 250px;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: #eaf4f4;
+    overflow-x: hidden;
+    padding-top: 20px;
+  }
+
+  .sidenav a {
+    font-family: 'Baloo Bhaijaan 2', cursive;
+    padding: 6px 8px 6px 16px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #a4c3b2;
+    display: block;
+  }
+
+  .sidenav a:hover {
+    color: white;
+    background-color: #6b9080;
+  }
+
+
+  p{
+    font-family: 'Baloo Bhaijaan 2', cursive;
+    text-align:center;
+    color: #6b9080;
+    font-size: 14px;
+    position: absolute;
+    bottom: 30px;
+  }

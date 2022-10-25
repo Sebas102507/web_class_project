@@ -1,0 +1,150 @@
+.mainDiv{
+  margin-top: 150px;
+  width: 100%;
+
+}
+
+.authorDiv{
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+
+
+ul{
+  list-style-type: none;
+}
+
+#descriptionDiv{
+  box-sizing: border-box;
+  display: inline-block;
+  vertical-align: top;
+  text-align: center;
+  width: 80%;
+}
+
+#descriptionDiv > p{
+  margin: 0px;
+  padding: 0px;
+  font-size: 20px;
+  text-align: left;
+  color: #6b9080;
+  font-family: 'Baloo Bhaijaan 2', cursive;
+
+  }
+
+#buttonDiv{
+  box-sizing: border-box;
+  display: inline-block;
+  vertical-align: top;
+  text-align: center;
+  width: 20%;
+}
+
+
+#deleteButton{
+  color:white;
+  background-color: rgb(244, 95, 95);
+  width: 100%;
+  height: 40px;
+  font-size: 20px;
+  border:2px solid  rgb(244, 95, 95);
+  border-top-right-radius: 8px;
+  border-bottom-right-radius: 8px;
+}
+
+.authorBox{
+  border:2px solid #cce3de;
+  border-radius: 10px;
+  width: 40%;
+  display: inline-block;
+  vertical-align: top;
+  padding: 0px;
+  height: 40px;
+  margin-top: 25px;
+}
+
+button{
+  color:#6b9080;
+  background-color: white;
+  width: 80%;
+  height: 40px;
+  font-size: 18px;
+  border:2px solid #6b9080;
+  border-radius: 10px;
+  }
+
+  button:hover{
+    color: white;
+    background-color: #6b9080;
+    border:2px solid  white;
+  }
+
+
+  label{
+    font-family: 'Baloo Bhaijaan 2', cursive;
+    text-align:start;
+    color: #6b9080;
+    font-size: 18px;
+    margin-left: 20px;
+    font-weight: bold;
+  }
+
+
+
+  form > input{
+    font-family: 'Baloo Bhaijaan 2', cursive;
+    text-align:start;
+    color: #6b9080;
+    font-size: 18px;
+    margin-left: 20px;
+    font-weight: bold;
+    border:2px solid #6b9080;
+    border-radius: 10px;
+
+  }
+
+
+  .formDiv{
+    margin-bottom: 20px;
+    width: max-content;
+  }
+
+  .grid-container {
+    margin-top: 220px;
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    overflow-y:auto;
+    width: 100%;
+    height:max-content;
+  }
+
+
+  #addButton{
+  color:#6b9080;
+  background-color: white;
+  width: 130px;
+  height: 40px;
+  font-size: 18px;
+  border:2px solid #6b9080;
+  border-radius: 10px;
+  margin-left: 20px;
+
+  }
+
+  #addButton:hover{
+    color: white;
+    background-color: #6b9080;
+    border:2px solid  white;
+  }
+
+#AuthorDropdown{
+  color:#6b9080;
+  background-color: white;
+  width: 130px;
+  height: 40px;
+  font-size: 18px;
+  border:2px solid #6b9080;
+  border-radius: 10px;
+  margin-left: 20px;
+}
+
